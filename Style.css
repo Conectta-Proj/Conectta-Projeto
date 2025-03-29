@@ -1,0 +1,373 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#010003;
+    /* aqui é onde eu tranco o curso e tiram a minha diginidade */
+    background-image: url('assets/img/introtoda.svg');  
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    /* desculpa por isso */
+}
+
+.barra-navegacao {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent;
+    gap: 65px;
+  
+}
+
+/* Menu de navegação */
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 65px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+}
+
+/* Container de botões */
+.botoes-navegacao {
+    display: flex;
+    gap: 65px;
+}
+
+/* Botões com efeito neon */
+.botao-neon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 203px;
+    height: 38px;
+    background: transparent;
+    border: 1px solid #cc9ff7;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: "Comfortaa", sans-serif;
+    cursor: pointer;
+    padding: 0 15px;
+    position: relative;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #cc9ff7;
+}
+
+/* Efeito hover para brilho */
+.botao-neon:hover {
+    box-shadow: 0 0 10px #cc9ff7, 0 0 10px #cc9ff7;
+    border-color: #e0b3ff;
+}
+
+/* Número +2.350 */
+.numero-contador {
+    font-family: "Advent Pro", sans-serif;
+    font-size: 160px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    text-align: left;
+    position: absolute;
+    top: 240px;
+    right: 70px;
+    margin-right: 25px;
+}
+
+/* Seção de introdução */
+.introducao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 50px;
+    position: relative;
+}
+
+/* Slogan */
+.frase-inicial h1 {
+    text-align: left;
+    color: white;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 600;
+    font-size: 180px;
+    line-height: 0.9;
+    margin-left: 165px;
+    margin-bottom: 20px;
+    transform: translateY(-30px);
+}
+
+/* Cada palavra em uma linha */
+.frase-inicial h1 span {
+    display: block;
+}
+
+/* frase encontre talentos */
+.frase-subtitulo {
+    text-align: left;
+    color: white;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 165px;
+    margin-top: -10px;
+}
+
+/* Palavra PROJETOS */
+.projetos {
+    position: absolute;
+    top: 380px;
+    right: 75px;
+    text-align: right;
+}
+
+.palavra-projetos {
+    font-family: "Advent Pro", bold;
+    font-size: 109px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    margin-right: 12px;
+}
+
+.frase-esperando {
+    font-family: "Advent Pro", sans-serif, bolder;
+    font-size: 47px;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    margin-top: -20px;
+}
+.simplesrapido {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    background-color: hsla(0, 0%, 100%, 0.06);
+    max-width: 641px;
+    border-radius: 35px;
+    border: solid 1px hsla(0, 0%, 100%, 0.10) ;
+    align-self: center;
+    
+    
+    
+}
+.headsimplesrapido {
+    display: flex;
+    font-family: "Advent Pro", bolder;
+    font-size: 57px;
+    font-weight: 700;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: center;
+    padding: auto;
+    color: hsla(0, 0%, 100%, 0.80);
+    max-width: 465px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 59px;
+    margin-bottom: 0;
+
+}
+.subsimplesrapido{
+    text-decoration: none;
+    color: #00ddff;
+    font-size: 25px;
+    font-family: "Comfortaa", sans-serif;
+    max-width: 532px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    margin-bottom: 0;
+
+}
+.subsimplesrapido h2{
+    text-decoration: none;
+    color: #00ddff;
+    font-size: 25px;
+    font-family: "Comfortaa", sans-serif;
+    max-width: 532px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+.feature1 {
+    background-color: hsla(0, 0%, 100%, 0.20);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 474px;
+    height: 69px;
+    border-radius: 35px;
+    margin-top: 32px;
+    
+}
+.feature1 h3{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    
+}
+.feature2 {
+    background-color: hsla(0, 0%, 100%, 0.20);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 474px;
+    height: 69px;
+    border-radius: 35px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.feature2 h3{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.feature3 {
+    background-color: hsla(0, 0%, 100%, 0.20);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 474px;
+    height: 69px;
+    border-radius: 35px;
+    margin-top: 15px;
+    margin-bottom: 49px;
+}
+.feature3 h3{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.newsletter{
+    display: flex;              
+    place-items: left; 
+    right: 30px;       
+    background-color:transparent;
+    margin: 20px auto;
+    max-width: 800px; 
+    color: white;
+    border-radius: 10px;
+}
+.newsletter h2{
+    font-family: "Advent Pro";
+    font-size: 25px;
+    font-weight: 100;
+    
+}
+.botaonews {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    width: 189px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #1ffbe9;
+    border-radius: 10px;
+    color:#1ffbe9;
+    font-size: 18px;
+    font-family: "Comfortaa", sans-serif;
+    cursor: pointer;
+    padding: 0 15px;
+    position: relative;
+    transition: 0.3s;
+}
+input[type="email"] {
+    border: 1px solid #1ffbe9;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    width: 322px;
+    height: 45px;
+    padding: 0 15px;
+    
+  }
+  .linhaplana {
+    border: none; 
+    height: 1px; 
+    width: 1220px;
+    background-color: #ffffff; 
+    display: flex;
+}
+.botoesrodape {
+    
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    margin-top: 0;
+    text-align: right;
+  }
+.footer {
+    
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    margin-top: 0;
+    text-align: right;
+  }
+ .footer p{
+    text-align: left;
+    color: white;
+    font-family: "Advent Pro";
+    font-size: 15px;
+    font-weight: 100;
+    display: flex;
+    left: 0%;
+    text-align: left;
+    justify-content:left;
+    /* eu já não sei mais o que eu to fazendo e não sei mais o que colocar aqui para alinhar na mesma linha a esquerda */
+    
+ } 
+ 
+ .botaolink {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: right;
+    justify-content:right;
+    transition: background-color 0.3s ease;
+    display: flex;              
+    place-items: right;
+
+ }
+.botaolink:hover {
+    color: #660779;
+ }
